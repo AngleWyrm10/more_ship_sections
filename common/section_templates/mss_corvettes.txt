@@ -1,0 +1,140 @@
+# Corvettes
+#  Scout
+#  Missile screening corvette
+#  Fighter support tanker
+#  Freighter
+
+# Global default definition for corvette hull alloy cost
+@corvette_hull_cost = 30
+
+# Scout
+# Small unarmed ship for scouting and surveillance
+ship_section_template = { key = "mss_scout"
+	ship_size = corvette
+	fits_on_slot = mid
+
+	# Graphics
+	should_draw_components = yes
+	entity = "corvette_M1S1_entity"
+	# icon = "GFX_ship_part_core_mid"
+
+	# Slots for customizability and power use
+	small_utility_slots = 1
+	aux_utility_slots   = 1
+
+	# Unusually cheap hull 
+	resources = {
+		category = ship_sections
+		cost = { alloys = 5	}
+	}
+}
+
+# Missile screening corvette
+# Slot for swarmer missiles to overcome enemy missile defense
+ship_section_template = { key = "mss_swarmer"
+	ship_size = corvette
+	fits_on_slot = mid
+
+	# Graphics
+	should_draw_components = yes
+	entity = "corvette_M1S1_entity"
+	# icon = "GFX_ship_part_core_mid"
+
+	# Slots in section
+	component_slot = {
+		name 		= "SMALL_GUN_01"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name 		= "MEDIUM_GUN_01"
+		template 	= "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	# Slots for customizability and power use
+	small_utility_slots = 3
+	aux_utility_slots   = 1
+
+	# Normal hull alloy cost 
+	resources = {
+		category = ship_sections
+		cost = { alloys = @corvette_hull_cost }
+	}
+}
+
+# Long range fighter support tanker
+# Refuel and resupply support ship for a fighter wing
+ship_section_template = { key = "mss_fighter_wing"
+	ship_size = corvette
+	fits_on_slot = mid
+
+	# Graphics
+	should_draw_components = yes
+	entity = "corvette_S3_entity" # SMALL_GUN_01 can hold point_defence_turret
+	# icon   = "GFX_ship_part_core_mid"
+
+	# Slots in section
+	component_slot = {
+		name        = "SMALL_GUN_01"
+		template    = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+  	component_slot = {
+		name        = "STRIKE_CRAFT_01"
+		template    = "large_strike_craft"
+		locatorname = "small_gun_02"
+		rotation    = 90
+	}
+	small_utility_slots = 2
+	aux_utility_slots   = 1
+
+	# Normal hull alloy cost 
+	resources = {
+		category = ship_sections
+		cost = { alloys = @corvette_hull_cost }
+	}
+
+	# Requires Carrier Operations tech
+	prerequisites = {
+		"tech_strike_craft_1"
+	}
+
+	# AI likes using this hull when they have explosive/strike craft preference
+	ai_weight = {
+		modifier = {
+			factor = 10
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = {	is_preferred_weapons = weapon_type_explosive }
+		}
+	}
+}
+
+# Freighter
+# Additional utility slots
+ship_section_template = { key = "mss_freighter"
+	ship_size = corvette
+	fits_on_slot = mid
+
+	# Graphics
+	should_draw_components = yes
+	entity = "corvette_M1S1_entity" 
+	# icon   = "GFX_ship_part_core_mid"
+
+	# Slots in section
+	component_slot = {
+		name        = "SMALL_GUN_01"
+		template    = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 2
+	aux_utility_slots   = 3
+
+	# Normal hull alloy cost 
+	resources = {
+		category = ship_sections
+		cost = { alloys = @corvette_hull_cost }
+	}
+}

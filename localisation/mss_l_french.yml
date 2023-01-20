@@ -1,0 +1,89 @@
+﻿l_french:
+
+# Coques de Corvette
+
+mss_scout: "Scout"
+mss_scout_desc: "Petite corvette non armée pour le dépistage et la surveillance"
+
+mss_swarmer: "écran de missile"
+mss_swarmer_desc: "Chargeur grande taille pour missiles escourt swarm"
+
+mss_fighter_wing: "Tanker de soutien de chasse"
+mss_fighter_wing_desc: "Ravitaillement et ravitaillement longue portée pour une aile de chasse"
+
+mss_freighter:         "Cargo"
+mss_freighter_desc:    "Emplacements utilitaires supplémentaires"
+
+# Sections de coque de destroyer
+
+mss_fighter_escourt_stern: "Chasseur Escourt Stern"
+mss_fighter_escourt_stern_desc: "Destructeur avec escourt de chasseur"
+
+mss_auxiliary_interceptor_stern: "Amélioration de l'intercepteur Stern"
+mss_auxiliary_interceptor_stern_desc: "Poupe du destroyer intercepteur avec emplacements de puissance / propulseur supplémentaires"
+
+mss_auxiliary_gunship_stern: "Poupe de canon améliorée"
+mss_auxiliary_gunship_stern_desc: "Poupe du destroyer de combat avec emplacements de puissance / propulseur supplémentaires"
+
+mss_augmented_interceptor_stern: "Advanced Interceptor Stern"
+mss_augmented_interceptor_stern_desc: "Poupe du destroyer intercepteur avec bouclier / armure et emplacement de puissance / propulseur supplémentaire"
+
+mss_augmented_gunship_stern: "Advanced Gunship Stern"
+mss_augmented_gunship_stern_desc: "Poupe du destroyer de combat avec bouclier / armure et emplacement de puissance / propulseur supplémentaire"
+
+mss_destroyer_missile_array_bow: "Arc de réseau de missiles"
+mss_destroyer_missile_array_bow_desc: "Plateforme de lancement de missiles dédiée"
+
+mss_destroyer_missile_array_stern: "Missile Array Stern"
+mss_destroyer_missile_array_stern_desc: "Plateforme de lancement de missiles dédiée"
+
+
+# Sections de coque de croiseur
+
+mss_hanger_bay_mid: "Hanger Bay"
+mss_hanger_bay_mid_desc: "Hanger Bay pour le lancement, la reprise et la maintenance des chasseurs"
+
+mss_close_quarters_bow: "Arc rapproché"
+mss_close_quarters_bow_desc: "Batterie de pistolet pour les engagements rapprochés"
+
+mss_close_quarters_mid: "Close Quarters Core"
+mss_close_quarters_mid_desc: "Batterie de pistolet pour les engagements rapprochés"
+
+mss_cruiser_missile_array_bow: "Arc de réseau de missiles"
+mss_cruiser_missile_array_bow_desc: "Plateforme de lancement de missiles dédiée"
+
+mss_cruiser_missile_array_core: "Missile Array Core"
+mss_cruiser_missile_array_core_desc: "Plateforme de lancement de missiles dédiée"
+
+mss_cruiser_missile_array_stern: "Missile Array Stern"
+mss_cruiser_missile_array_stern_desc: "Plateforme de lancement de missiles dédiée"
+
+
+# Sections de coque de cuirassé
+
+mss_dedicated_broadside_bow: "Arc large dédié"
+mss_dedicated_broadside_bow_desc: "Cuirassé de soutien-feu de milieu de gamme dédié"
+
+mss_dedicated_broadside_core: "Dedicated Broadside Core"
+mss_dedicated_broadside_core_desc: "Cuirassé de soutien-feu dédié à mi-portée"
+
+mss_battleship_gun_battery_bow: "Arc rapproché"
+mss_battleship_gun_battery_bow_desc: "Batterie de pistolet pour les engagements rapprochés"
+
+mss_battleship_gun_battery_core: "Close Quarters Core"
+mss_battleship_gun_battery_core_desc: "Batterie de pistolet pour les engagements rapprochés"
+
+mss_gun_battery_stern: "Close Quarters Stern"
+mss_gun_battery_stern_desc: "Batterie de pistolet pour les engagements rapprochés"
+
+mss_launch_bays: "Baies de lancement de chasseurs"
+mss_launch_bays_desc: "Lancement, récupération et maintenance des combattants"
+
+mss_battleship_missile_array_bow: "Arc de réseau de missiles"
+mss_battleship_missile_array_bow_desc: "Plateforme de lancement de missiles dédiée"
+
+mss_battleship_missile_array_core: "Missile Array Core"
+mss_battleship_missile_array_core_des: "Plateforme de lancement de missiles dédiée"
+
+mss_battleship_missile_array_stern: "Missile Array Stern"
+mss_battleship_missile_array_stern_desc: "Plateforme de lancement de missiles dédiée"

@@ -1,0 +1,89 @@
+﻿l_braz_por:
+
+# Cascos de Corveta
+
+mss_scout: "Scout"
+mss_scout_desc: "Pequena corveta desarmada para patrulhamento e vigilância"
+
+mss_swarmer: "tela de mísseis"
+mss_swarmer_desc: "Carregador de tamanho grande para mísseis de enxame de escort"
+
+mss_fighter_wing: "Fighter Support Tanker"
+mss_fighter_wing_desc: "Reabastecimento de longo alcance e reabastecimento de tanque para uma asa de caça"
+
+mss_freighter:         "Cargueiro"
+mss_freighter_desc:    "Espaços utilitários extras"
+
+# Seções do casco do destruidor
+
+mss_fighter_escourt_stern: "Fighter Escourt Stern"
+mss_fighter_escourt_stern_desc: "Destruidor com escolta de caça"
+
+mss_auxiliary_interceptor_stern: "Melhoria do Interceptor Stern"
+mss_auxiliary_interceptor_stern_desc: "Interceptor destroyer popa com potência adicional / slots de propulsão"
+
+mss_auxiliary_gunship_stern: "Reforço de caça aprimorado"
+mss_auxiliary_gunship_stern_desc: "Gunship destroyer popa com power / thruster slots adicionais"
+
+mss_augmented_interceptor_stern: "Advanced Interceptor Stern"
+mss_augmented_interceptor_stern_desc: "Interceptor destroyer popa com escudo / armadura e poder adicional / slot de propulsão"
+
+mss_augmented_gunship_stern: "Advanced Gunship Stern"
+mss_augmented_gunship_stern_desc: "Gunship destroyer popa com escudo / armadura e poder adicional / slot de propulsão"
+
+mss_destroyer_missile_array_bow: "Missile Array Bow"
+mss_destroyer_missile_array_bow_desc: "Plataforma de lançamento de mísseis dedicada"
+
+mss_destroyer_missile_array_stern: "Missile Array Stern"
+mss_destroyer_missile_array_stern_desc: "Plataforma de lançamento de mísseis dedicada"
+
+
+# Seções do casco do cruzador
+
+mss_hanger_bay_mid: "Hanger Bay"
+mss_hanger_bay_mid_desc: "Hanger bay para lançamento, retirada e manutenção de caças"
+
+mss_close_quarters_bow: "Arco de Close Quarters"
+mss_close_quarters_bow_desc: "Bateria de arma para combates próximos"
+
+mss_close_quarters_mid: "Close Quarters Core"
+mss_close_quarters_mid_desc: "Bateria de armas para combates próximos"
+
+mss_cruiser_missile_array_bow: "Missile Array Bow"
+mss_cruiser_missile_array_bow_desc: "Plataforma dedicada de lançamento de mísseis"
+
+mss_cruiser_missile_array_core: "Missile Array Core"
+mss_cruiser_missile_array_core_desc: "Plataforma de lançamento de mísseis dedicada"
+
+mss_cruiser_missile_array_stern: "Missile Array Stern"
+mss_cruiser_missile_array_stern_desc: "Plataforma de lançamento de mísseis dedicada"
+
+
+# Seções do casco do navio de guerra
+
+mss_dedicated_broadside_bow: "Arco dedicado ao largo"
+mss_dedicated_broadside_bow_desc: "Encouraçado de combate de fogo de médio alcance dedicado"
+
+mss_dedicated_broadside_core: "Núcleo Broadside Dedicado"
+mss_dedicated_broadside_core_desc: "Encouraçado de combate de fogo de médio alcance dedicado"
+
+mss_battleship_gun_battery_bow: "Arco de Close Quarters"
+mss_battleship_gun_battery_bow_desc: "Bateria de arma para confrontos diretos"
+
+mss_battleship_gun_battery_core: "Close Quarters Core"
+mss_battleship_gun_battery_core_desc: "Bateria de arma para engajamentos próximos"
+
+mss_gun_battery_stern: "Close Quarters Stern"
+mss_gun_battery_stern_desc: "Bateria de arma para confrontos diretos"
+
+mss_launch_bays: "Baías de lançamento de caça"
+mss_launch_bays_desc: "Lançamento, recuperação e manutenção de caças"
+
+mss_battleship_missile_array_bow: "Missile Array Bow"
+mss_battleship_missile_array_bow_desc: "Plataforma dedicada de lançamento de mísseis"
+
+mss_battleship_missile_array_core: "Missile Array Core"
+mss_battleship_missile_array_core_desc: "Plataforma dedicada de lançamento de mísseis"
+
+mss_battleship_missile_array_stern: "Missile Array Stern"
+mss_battleship_missile_array_stern_desc: "Plataforma de lançamento de mísseis dedicada"

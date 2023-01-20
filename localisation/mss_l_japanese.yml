@@ -1,0 +1,89 @@
+﻿l_japanese:
+
+＃コルベットの船体
+
+mss_scout： "スカウト"
+mss_scout_desc：「偵察と監視のための小型の非武装コルベット」
+
+mss_swarmer: "ミサイルスクリーン"
+mss_swarmer_desc: "エスコート スウォーム ミサイル用のラージ マガジン サイズ"
+
+mss_fighter_wing：「ファイターサポートタンカー」
+mss_fighter_wing_desc：「戦闘航空団用の長距離給油および補給タンカー」
+
+mss_freighter:         "貨物船"
+mss_freighter_desc:    "追加のユーティリティ スロット"
+
+＃駆逐艦の船体セクション
+
+mss_fighter_escourt_stern： "ファイターエスコートスターン"
+mss_fighter_escourt_stern_desc：「戦闘機の護衛を備えた破壊者」
+
+mss_auxiliary_interceptor_stern： "改良されたインターセプタースターン"
+mss_auxiliary_interceptor_stern_desc：「追加のパワー/スラスタースロットを備えたインターセプター駆逐艦の船尾」
+
+mss_auxiliary_gunship_stern：「改良されたガンシップスターン」
+mss_auxiliary_gunship_stern_desc：「追加のパワー/スラスタースロットを備えたガンシップ駆逐艦の船尾」
+
+mss_augmented_interceptor_stern： "高度なインターセプタースターン"
+mss_augmented_interceptor_stern_desc：「シールド/装甲と追加の電源/スラスタースロットを備えたインターセプター駆逐艦の船尾」
+
+mss_augmented_gunship_stern： "高度なガンシップスターン"
+mss_augmented_gunship_stern_desc：「シールド/装甲と追加のパワー/スラスタースロットを備えたガンシップ駆逐艦の船尾」
+
+mss_destroyer_missile_array_bow： "ミサイルアレイボウ"
+mss_destroyer_missile_array_bow_desc：「専用ミサイル発射プラットフォーム」
+
+mss_destroyer_missile_array_stern： "ミサイルアレイスターン"
+mss_destroyer_missile_array_stern_desc：「専用ミサイル発射プラットフォーム」
+
+
+＃クルーザーハルセクション
+
+mss_hanger_bay_mid：「ハンガーベイ」
+mss_hanger_bay_mid_desc：「戦闘機の発射、回収、保守のためのハンガーベイ」
+
+mss_close_quarters_bow： "クォーターボウを閉じる"
+mss_close_quarters_bow_desc：「緊密な交戦のための砲台」
+
+mss_close_quarters_mid： "Close Quarters Core"
+mss_close_quarters_mid_desc：「緊密な交戦のための砲台」
+
+mss_cruiser_missile_array_bow： "ミサイルアレイボウ"
+mss_cruiser_missile_array_bow_desc：「専用ミサイル発射プラットフォーム」
+
+mss_cruiser_missile_array_core： "ミサイルアレイコア"
+mss_cruiser_missile_array_core_desc：「専用ミサイル発射プラットフォーム」
+
+mss_cruiser_missile_array_stern： "ミサイルアレイスターン"
+mss_cruiser_missile_array_stern_desc：「専用ミサイル発射プラットフォーム」
+
+
+＃戦艦の船体セクション
+
+mss_dedicated_broadside_bow： "専用ブロードサイドボウ"
+mss_dedicated_broadside_bow_desc：「専用の中距離火力支援戦艦」
+
+mss_dedicated_broadside_core： "専用ブロードサイドコア"
+mss_dedicated_broadside_core_desc：「専用の中距離火力支援戦艦」
+
+mss_battleship_gun_battery_bow： "Close Quarters Bow"
+mss_battleship_gun_battery_bow_desc：「緊密な交戦のための砲台」
+
+mss_battleship_gun_battery_core： "クォーターコアを閉じる"
+mss_battleship_gun_battery_core_desc：「緊密な交戦のための砲台」
+
+mss_gun_battery_stern： "Close Quarters Stern"
+mss_gun_battery_stern_desc：「緊密な交戦のための砲台」
+
+mss_launch_bays：「ファイターローンチベイ」
+mss_launch_bays_desc：「戦闘機の発射、回復、保守」
+
+mss_battleship_missile_array_bow： "ミサイルアレイボウ"
+mss_battleship_missile_array_bow_desc：「専用ミサイル発射プラットフォーム」
+
+mss_battleship_missile_array_core： "ミサイルアレイコア"
+mss_battleship_missile_array_core_desc：「専用ミサイル発射プラットフォーム」
+
+mss_battleship_missile_array_stern： "ミサイルアレイスターン"
+mss_battleship_missile_array_stern_desc：「専用ミサイル発射プラットフォーム」

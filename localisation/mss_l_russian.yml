@@ -1,0 +1,89 @@
+﻿l_russian:
+# Корпуса корветов
+
+mss_scout: "Разведчик"
+mss_scout_desc: "Маленький невооруженный корвет для разведки и наблюдения"
+
+mss_swarmer: "ракетный экран"
+mss_swarmer_desc: "Большой магазин для эскортных роевых ракет"
+
+mss_fighter_wing: "Мобильный ангар"
+mss_fighter_wing_desc: "Танкер для обслуживания истребительного крыла"
+
+mss_freighter:         "грузовое судно"
+mss_freighter_desc:    "Дополнительные служебные слоты"
+
+
+# Секции корпуса эсминца
+
+mss_fighter_escourt_stern: "Корма с ангаром"
+mss_fighter_escourt_stern_desc: "Корма с ангаром для обслуживания истребительного крыла"
+
+mss_auxiliary_interceptor_stern: "Улучшенная корма перехватчика"
+mss_auxiliary_interceptor_stern_desc: "Корма с малыми орудиями и дополнительным A-слотом"
+
+mss_auxiliary_gunship_stern: "Улучшенная корма «Стрелок»"
+mss_auxiliary_gunship_stern_desc: "Корма со средним орудием и дополнительным A-слотом"
+
+mss_augmented_interceptor_stern: "Продвинутая корма перехватчика"
+mss_augmented_interceptor_stern_desc: "Корма с малыми орудиями, дополнительным A-слотом, и слотом брони"
+
+mss_augmented_gunship_stern: "Продвинутая корма «Стрелок»"
+mss_augmented_gunship_stern_desc: "Корма со средним орудием, дополнительным A-слотом, и слотом брони"
+
+mss_destroyer_missile_array_bow: "Ракетный нос"
+mss_destroyer_missile_array_bow_desc: "Специальная платформа для запуска ракет"
+
+mss_destroyer_missile_array_stern: "Ракетная корма"
+mss_destroyer_missile_array_stern_desc: "Специальная платформа для запуска ракет"
+
+
+# Секции корпуса крейсера
+
+mss_hanger_bay_mid: "Большой ангар"
+mss_hanger_bay_mid_desc: "Центр корабля с крупным ангаром для обслуживания перехватчиков"
+
+mss_close_quarters_bow: "Нос ближнего боя"
+mss_close_partments_bow_desc: "Орудийная батарея для ближнего боя"
+
+mss_close_quarters_mid: "Центральная палуба ближнего боя"
+mss_close_partments_mid_desc: "Орудийная батарея для ближнего боя"
+
+mss_cruiser_missile_array_bow: "Нос с ракетной батареей"
+mss_cruiser_missile_array_bow_desc: "Специальная платформа для запуска ракет"
+
+mss_cruiser_missile_array_core: "Центральная палуба с ракетной батареей"
+mss_cruiser_missile_array_core_desc: "Специальная платформа для запуска ракет"
+
+mss_cruiser_missile_array_stern: "Корма с ракетной батареей"
+mss_cruiser_missile_array_stern_desc: "Специальная платформа для запуска ракет"
+
+
+# Секции корпуса линкора
+
+mss_dedicated_broadside_bow: "Средний нос"
+mss_dedicated_broadside_bow_desc: "Нос линкора с возможностью установки средних орудий"
+
+mss_dedicated_broadside_core: "Средняя центральная палуба"
+mss_dedicated_broadside_core_desc: "Центральная палуба линкора с возможностью установки средних орудий"
+
+mss_battleship_gun_battery_bow: "Нос ближнего боя"
+mss_battleship_gun_battery_bow_desc: "Орудийная батарея для ближнего боя"
+
+mss_battleship_gun_battery_core: "Центральная палуба ближнего боя"
+mss_battleship_gun_battery_core_desc: "Орудийная батарея для ближнего боя"
+
+mss_gun_battery_stern: "Корма ближнего боя"
+mss_gun_battery_stern_desc: "Орудийная батарея для ближнего боя"
+
+mss_launch_bays: "Огромный ангар"
+mss_launch_bays_desc: "Центр корабля с огромным ангаром для обслуживания перехватчиков"
+
+mss_battleship_missile_array_bow: "Нос с ракетной батареей"
+mss_battleship_missile_array_bow_desc: "Специальная платформа для запуска ракет"
+
+mss_battleship_missile_array_core: "Центральная палуба с ракетной батареей"
+mss_battleship_missile_array_core_desc: "Специальная платформа для запуска ракет"
+
+mss_battleship_missile_array_stern: "Корма с ракетной батареей"
+mss_battleship_missile_array_stern_desc: "Специальная платформа для запуска ракет"

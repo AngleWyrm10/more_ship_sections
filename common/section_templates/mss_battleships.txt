@@ -1,0 +1,564 @@
+# Battleship sections
+# - Dedicated Broadside bow
+# - Dedicated Broadside core
+# - Gun Battery bow
+# - Gun Battery core
+# - Gun Battery stern 
+# - Missile Array bow
+# - Missile Array core
+# - Missile Array stern
+# - Launch Bays 
+
+# base hull alloy cost
+@section_cost = 80
+
+# Dedicated Broadside bow
+# 4 medium weapons, 3 large utility
+ship_section_template = { key = "mss_dedicated_broadside_bow"
+	ship_size = battleship
+	fits_on_slot = bow
+
+	# Graphics
+	should_draw_components = yes
+	entity = "battleship_bow_L1M1S2_entity" # Supports only 1 medium gun graphic
+	# icon   = "GFX_ship_part_bow"
+
+	# Section slots
+	component_slot = {
+		name 		= "MEDIUM_GUN_01"
+		template 	= "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name 		= "MEDIUM_GUN_02"
+		template 	= "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name 		= "MEDIUM_GUN_03"
+		template 	= "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name 		= "MEDIUM_GUN_04"
+		template 	= "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	large_utility_slots = 3
+
+	# Costs and Prerequisites
+	resources = {
+		category = ship_sections
+		cost = { alloys = @section_cost }
+	}
+	prerequisites = { tech_battleships }
+
+	# AI role preference 
+	ai_weight = {
+		modifier = {
+			factor = 10
+			OR = {
+				is_preferred_weapons = weapon_role_anti_shield				
+				is_preferred_weapons = weapon_role_anti_armor
+				is_preferred_weapons = weapon_role_anti_hull				
+			}
+		}
+	}
+	
+}
+
+# Broadside Core
+# 6 medium weapons, 3 large utility
+ship_section_template = { key = "mss_dedicated_broadside_core"
+	ship_size = battleship
+	fits_on_slot = mid
+
+	# Graphics
+  should_draw_components = yes
+	entity = "battleship_mid_M4SHB_entity" # Supports only 4 medium guns, extra pads
+	# icon   = "GFX_ship_part_core_mid"
+
+	# Section slots
+	component_slot = {
+		name 		= "MEDIUM_GUN_01"
+		template 	= "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name 		= "MEDIUM_GUN_02"
+		template 	= "medium_turret"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name 		= "MEDIUM_GUN_03"
+		template 	= "medium_turret"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name 		= "MEDIUM_GUN_04"
+		template 	= "medium_turret"
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name 		= "MEDIUM_GUN_05"
+		template 	= "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name 		= "MEDIUM_GUN_06"
+		template 	= "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	large_utility_slots = 3
+
+	# Costs and Prerequisites
+	resources = {
+		category = ship_sections
+		cost = { alloys = @section_cost }
+	}
+	prerequisites = { tech_battleships }
+
+	# AI role preference 
+	ai_weight = {
+		modifier = {
+			factor = 10
+			OR = {
+				is_preferred_weapons = weapon_role_anti_shield				
+				is_preferred_weapons = weapon_role_anti_armor
+				is_preferred_weapons = weapon_role_anti_hull				
+			}
+		}
+	}	
+}
+
+# Gun Battery bow
+# 8 small weapons, 3 large utility
+ship_section_template = { key = "mss_battleship_gun_battery_bow"
+	ship_size = battleship
+	fits_on_slot = bow
+
+	# Graphics
+	should_draw_components = yes
+	entity = "battleship_bow_L1M1S2_entity" # Supports only 2 small gun graphics
+	# icon   = "GFX_ship_part_bow"
+
+	# Section slots
+	component_slot = {
+		name 		= "SMALL_GUN_01"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_02"
+		template 	= "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_03"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_04"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_05"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_06"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_07"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_08"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	large_utility_slots = 3
+
+	# Costs and Prerequisites
+	resources = {
+		category = ship_sections
+		cost = { alloys = @section_cost }
+	}
+	prerequisites = { tech_battleships }
+
+	# AI role preference 
+	
+}
+
+# Gun Battery core
+# 12 small weapons, 3 large utility
+ship_section_template = { key = "mss_battleship_gun_battery_core"
+	ship_size = battleship
+	fits_on_slot = mid
+
+	# Graphics
+	should_draw_components = yes
+	entity = "battleship_mid_S4LHB_entity" # Supports only 4 small gun graphics
+	# icon   = "GFX_ship_part_core_mid"
+
+	# Section slots
+	component_slot = {
+		name 		= "SMALL_GUN_01"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_02"
+		template 	= "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_03"
+		template 	= "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_04"
+		template 	= "small_turret"
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_05"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_06"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_07"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_08"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_09"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_10"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_11"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_12"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	large_utility_slots = 3
+
+	# Costs and Prerequisites
+	resources = {
+		category = ship_sections
+		cost = { alloys = @section_cost }
+	}
+	prerequisites = { tech_battleships }
+
+	# AI role preference 
+	
+}
+
+# Gun Battery stern
+# 4 small weapons, 2 auxiliary
+ship_section_template = { key = "mss_gun_battery_stern"
+	ship_size = battleship
+	fits_on_slot = stern
+
+	# Graphics
+	should_draw_components = yes
+	entity = "battleship_stern_M2_entity" # There are currently no stern battleship sections that support small gun graphics
+	# icon   = "GFX_ship_part_core_stern"
+
+	# Section slots
+	component_slot = {
+		name 		= "SMALL_GUN_01"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_02"
+		template 	= "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_03"
+		template 	= "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name 		= "SMALL_GUN_04"
+		template 	= "small_turret"
+		locatorname = "small_gun_04"
+	}
+	aux_utility_slots = 2
+
+	# Costs and Prerequisites
+	resources = {
+		category = ship_sections
+		cost = { alloys = @section_cost }
+	}
+	prerequisites = { tech_battleships }
+
+	# AI role preference 
+}
+
+# Missile Array bow
+# 4 missiles, 3 large utility
+ship_section_template = { key = "mss_battleship_missile_array_bow"
+	ship_size = battleship
+	fits_on_slot = bow
+
+	# Graphics
+	should_draw_components = yes
+	entity = "battleship_bow_L1M1S2_entity" # Supports only one missile turret graphic
+	# icon   = "GFX_ship_part_bow"
+
+	# Section slots
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}	
+	component_slot = {
+		name = "TORPEDO_03"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}	
+	large_utility_slots = 3
+
+	# Costs and Prerequisites
+	resources = {
+		category = ship_sections
+		cost = { alloys = @section_cost }
+	}
+	prerequisites = { tech_battleships }
+
+	# AI with explosives/strike craft preference choose this hull
+	#    and those without don't
+	ai_weight = {
+		modifier = {
+			factor = 10
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = {	is_preferred_weapons = weapon_type_explosive }
+		}
+	}
+}
+
+# Missile Array core
+# 6 missile, 3 large utility
+ship_section_template = { key = "mss_battleship_missile_array_core"
+ship_size = battleship
+fits_on_slot = mid
+
+# Graphics
+should_draw_components = yes
+entity = "battleship_mid_M4SHB_entity" # Supports only 4 missile turret graphics
+# icon   = "GFX_ship_part_core_mid"
+
+	# Section slots
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_02"
+	}	
+	component_slot = {
+		name = "TORPEDO_03"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_04"
+	}	
+	component_slot = {
+		name = "TORPEDO_05"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_06"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}	
+	large_utility_slots = 3
+
+
+	# Costs and Prerequisites
+	resources = {
+		category = ship_sections
+		cost = { alloys = @section_cost }
+	}
+	prerequisites = { tech_battleships }
+
+	# AI with explosives/strike craft preference choose this hull
+	#    and those without don't
+	ai_weight = {
+		modifier = {
+			factor = 10
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = {	is_preferred_weapons = weapon_type_explosive }
+		}
+	}
+}
+
+# Missile Array stern
+# 2 missile, 2 auxiliary
+ship_section_template = { key = "mss_battleship_missile_array_stern"
+	ship_size = battleship
+	fits_on_slot = stern
+
+	# Graphics
+	should_draw_components = yes
+	entity = "battleship_stern_M2_entity" # Supports two missile turret graphics
+	# icon   = "GFX_ship_part_core_stern"
+
+	# Section slots
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_02"
+	}	
+	aux_utility_slots = 2
+
+	# Costs and Prerequisites
+	resources = {
+		category = ship_sections
+		cost = { alloys = @section_cost }
+	}
+	prerequisites = { tech_battleships }
+
+	# AI with explosives/strike craft preference choose this hull
+	#    and those without don't
+	ai_weight = {
+		modifier = {
+			factor = 10
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = {	is_preferred_weapons = weapon_type_explosive }
+		}
+	}
+}
+
+
+# Launch Bays
+# 6 hanger bays, 3 large utility
+ship_section_template = { key = "mss_launch_bays"
+	ship_size = battleship
+	fits_on_slot = mid
+
+	# Graphics
+	should_draw_components = yes
+	entity = "battleship_mid_S4LHB_entity" # Supports only one hanger bay "graphic" (no fighters)
+	# icon   = "GFX_ship_part_core_mid"
+
+	# Section slots
+	component_slot = {
+		name        = "STRIKE_CRAFT_01"
+		template    = "large_strike_craft"
+		locatorname = "strike_craft_locator_01"
+		rotation    = 90
+	}
+	component_slot = {
+		name        = "STRIKE_CRAFT_02"
+		template    = "large_strike_craft"
+		locatorname = "strike_craft_locator_01"
+		rotation    = 90
+	}
+	component_slot = {
+		name        = "STRIKE_CRAFT_03"
+		template    = "large_strike_craft"
+		locatorname = "strike_craft_locator_01"
+		rotation    = 90
+	}
+	component_slot = {
+		name        = "STRIKE_CRAFT_04"
+		template    = "large_strike_craft"
+		locatorname = "strike_craft_locator_01"
+		rotation    = 90
+	}
+	component_slot = {
+		name        = "STRIKE_CRAFT_05"
+		template    = "large_strike_craft"
+		locatorname = "strike_craft_locator_01"
+		rotation    = 90
+	}
+	component_slot = {
+		name        = "STRIKE_CRAFT_06"
+		template    = "large_strike_craft"
+		locatorname = "strike_craft_locator_01"
+		rotation    = 90
+	}
+	large_utility_slots = 3
+
+	# Costs and Prerequisites
+	resources = {
+		category = ship_sections
+		cost = { alloys = @section_cost }
+	}
+	prerequisites = { tech_battleships }
+
+	# AI role preference 
+	ai_weight = {
+		modifier = {
+			factor = 10
+			OR = {
+				is_preferred_weapons = weapon_role_anti_shield				
+				is_preferred_weapons = weapon_role_anti_armor
+				is_preferred_weapons = weapon_role_anti_hull				
+			}
+		}
+	}
+	
+}

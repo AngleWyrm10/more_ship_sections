@@ -1,0 +1,89 @@
+﻿l_german:
+
+# Corvette Rümpfe
+
+mss_scout: "Scout"
+mss_scout_desc: "Kleine unbewaffnete Korvette zum Aufspüren und Überwachen"
+
+mss_swarmer: "Raketenbildschirm"
+mss_swarmer_desc: "Große Magazingröße für Escourt-Schwarmraketen"
+
+mss_fighter_wing: "Fighter Support Tanker"
+mss_fighter_wing_desc: "Fernbetankung und Nachschubtanker für einen Jagdflügel"
+
+mss_freighter:         "Frachter"
+mss_freighter_desc:    "Zusätzliche Utility-Slots"
+
+# Rumpfabschnitte des Zerstörers
+
+mss_fighter_escourt_stern: "Fighter Escourt Stern"
+mss_fighter_escourt_stern_desc: "Zerstörer mit Kämpfer-Eskorte"
+
+mss_auxiliary_interceptor_stern: "Verbesserter Interceptor Stern"
+mss_auxiliary_interceptor_stern_desc: "Interceptor-Zerstörerheck mit zusätzlichen Power / Thruster-Slots"
+
+mss_auxiliary_gunship_stern: "Verbesserter Gunship Stern"
+mss_auxiliary_gunship_stern_desc: "Gunship Destroyer Heck mit zusätzlichen Power / Thruster Slots"
+
+mss_augmented_interceptor_stern: "Advanced Interceptor Stern"
+mss_augmented_interceptor_stern_desc: "Interceptor Zerstörer Heck mit Schild / Rüstung und zusätzlichem Power / Thruster Slot"
+
+mss_augmented_gunship_stern: "Advanced Gunship Stern"
+mss_augmented_gunship_stern_desc: "Gunship Destroyer Heck mit Schild / Rüstung und zusätzlichem Power / Thruster Slot"
+
+mss_destroyer_missile_array_bow: "Missile Array Bow"
+mss_destroyer_missile_array_bow_desc: "Spezielle Raketenstartplattform"
+
+mss_destroyer_missile_array_stern: "Missile Array Stern"
+mss_destroyer_missile_array_stern_desc: "Spezielle Raketenstartplattform"
+
+
+# Rumpfabschnitte des Kreuzers
+
+mss_hanger_bay_mid: "Hanger Bay"
+mss_hanger_bay_mid_desc: "Hanger Bay für Start, Retrival und Wartung von Kämpfern"
+
+mss_close_quarters_bow: "Close Quarters Bow"
+mss_close_quarters_bow_desc: "Waffenbatterie für enge Engagements"
+
+mss_close_quarters_mid: "Close Quarters Core"
+mss_close_quarters_mid_desc: "Waffenbatterie für enge Engagements"
+
+mss_cruiser_missile_array_bow: "Missile Array Bow"
+mss_cruiser_missile_array_bow_desc: "Dedizierte Raketenstartplattform"
+
+mss_cruiser_missile_array_core: "Missile Array Core"
+mss_cruiser_missile_array_core_desc: "Dedizierte Raketenstartplattform"
+
+mss_cruiser_missile_array_stern: "Missile Array Stern"
+mss_cruiser_missile_array_stern_desc: "Spezielle Raketenstartplattform"
+
+
+# Schlachtschiff Rumpfabschnitte
+
+mss_dedicated_broadside_bow: "Dedicated Broadside Bow"
+mss_dedicated_broadside_bow_desc: "Spezielles Schlachtschiff zur Unterstützung der mittleren Reichweite"
+
+mss_dedicated_broadside_core: "Dedicated Broadside Core"
+mss_dedicated_broadside_core_desc: "Spezielles Schlachtschiff zur Unterstützung der Mittelstreckenfeuerwehr"
+
+mss_battleship_gun_battery_bow: "Close Quarters Bow"
+mss_battleship_gun_battery_bow_desc: "Waffenbatterie für enge Engagements"
+
+mss_battleship_gun_battery_core: "Close Quarters Core"
+mss_battleship_gun_battery_core_desc: "Waffenbatterie für enge Engagements"
+
+mss_gun_battery_stern: "Close Quarters Stern"
+mss_gun_battery_stern_desc: "Waffenbatterie für enge Engagements"
+
+mss_launch_bays: "Fighter Launch Bays"
+mss_launch_bays_desc: "Start, Wiederherstellung und Wartung von Kämpfern"
+
+mss_battleship_missile_array_bow: "Missile Array Bow"
+mss_battleship_missile_array_bow_desc: "Dedizierte Raketenstartplattform"
+
+mss_battleship_missile_array_core: "Missile Array Core"
+mss_battleship_missile_array_core_desc: "Spezielle Raketenstartplattform"
+
+mss_battleship_missile_array_stern: "Missile Array Stern"
+mss_battleship_missile_array_stern_desc: "Spezielle Raketenstartplattform"

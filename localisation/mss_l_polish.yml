@@ -1,0 +1,89 @@
+﻿l_polish:
+
+# Kadłuby Corvette
+
+mss_scout: "Scout"
+mss_scout_desc: "Mała nieuzbrojona korweta do zwiadu i obserwacji"
+
+mss_swarmer: "ekran rakietowy"
+mss_swarmer_desc: "Duży magazynek do eskortowych pocisków roju"
+
+mss_fighter_wing: "Czołgista wsparcia myśliwców"
+mss_fighter_wing_desc: "Tankowanie dalekiego zasięgu i zaopatrzenie tankowca dla skrzydła myśliwskiego"
+
+mss_freighter:         "Frachtowiec"
+mss_freighter_desc:    "Dodatkowe gniazda narzędziowe"
+
+# Sekcje kadłuba niszczyciela
+
+mss_fighter_escourt_stern: "Myśliwiec Escourt Stern"
+mss_fighter_escourt_stern_desc: "Niszczyciel z escourtem myśliwca"
+
+mss_auxiliary_interceptor_stern: "Ulepszona rufa przechwytująca"
+mss_auxiliary_interceptor_stern_desc: "Rufa niszczyciela przechwytującego z dodatkowymi gniazdami na moc / pędnik"
+
+mss_auxiliary_gunship_stern: "Ulepszona rufa Gunship"
+mss_auxiliary_gunship_stern_desc: "Rufa niszczyciela okrętu z dodatkowymi gniazdami na moc / pędnik"
+
+mss_augmented_interceptor_stern: "Zaawansowany rufowy przechwytujący"
+mss_augmented_interceptor_stern_desc: "Rufa niszczyciela przechwytującego z tarczą / zbroją i dodatkowym gniazdem na moc / pędnik"
+
+mss_augmented_gunship_stern: "Zaawansowany rufowy statek bojowy"
+mss_augmented_gunship_stern_desc: "Rufa niszczyciela okrętu z tarczą / zbroją i dodatkowym gniazdem na moc / pędnik"
+
+mss_destroyer_missile_array_bow: "Łuk z układem rakiet"
+mss_destroyer_missile_array_bow_desc: "Dedykowana platforma wyrzutni rakiet"
+
+mss_destroyer_missile_array_stern: "Rufowy zestaw rakietowy"
+mss_destroyer_missile_array_stern_desc: "Dedykowana platforma wyrzutni rakiet"
+
+
+# Sekcje kadłuba krążowników
+
+mss_hanger_bay_mid: "Wieszak"
+mss_hanger_bay_mid_desc: "Zatoka z wieszakami na start, odzyskanie i konserwację myśliwców"
+
+mss_close_quarters_bow: "Łuk w zwarciu"
+mss_close_quarters_bow_desc: "Bateria dział do bliskich starć"
+
+mss_close_quarter_mid: "Rdzeń w zwarciu"
+mss_close_quarters_mid_desc: "Bateria dział do bliskich starć"
+
+mss_cruiser_missile_array_bow: "Łuk z układem rakiet"
+mss_cruiser_missile_array_bow_desc: "Dedykowana platforma wyrzutni rakiet"
+
+mss_cruiser_missile_array_core: "Rdzeń tablicy rakietowej"
+mss_cruiser_missile_array_core_desc: "Dedykowana platforma wyrzutni rakiet"
+
+mss_cruiser_missile_array_stern: "Rufowa tablica rakietowa"
+mss_cruiser_missile_array_stern_desc: "Dedykowana platforma wyrzutni rakiet"
+
+
+# Sekcje kadłuba pancernika
+
+mss_dedicated_broadside_bow: "Dedykowany łuk burty"
+mss_dedicated_broadside_bow_desc: "Dedykowany pancernik wsparcia ogniowego średniego zasięgu"
+
+mss_dedicated_broadside_core: "Dedykowany rdzeń Broadside"
+mss_dedicated_broadside_core_desc: "Dedykowany pancernik wsparcia ogniowego średniego zasięgu"
+
+mss_battleship_gun_battery_bow: "Łuk w zwarciu"
+mss_battleship_gun_battery_bow_desc: "Bateria dział do bliskich starć"
+
+mss_battleship_gun_battery_core: "Rdzeń do walki w zwarciu"
+mss_battleship_gun_battery_core_desc: "Bateria dział do bliskich starć"
+
+mss_gun_battery_stern: "Rufa w zwarciu"
+mss_gun_battery_stern_desc: "Bateria dział do bliskich starć"
+
+mss_launch_bays: "Zatoki startowe myśliwców"
+mss_launch_bays_desc: "Uruchomienie, odzyskanie i konserwacja myśliwców"
+
+mss_battleship_missile_array_bow: "Łuk z układem rakiet"
+mss_battleship_missile_array_bow_desc: "Dedykowana platforma wyrzutni rakiet"
+
+mss_battleship_missile_array_core: "Rdzeń tablicy rakietowej"
+mss_battleship_missile_array_core_desc: "Dedykowana platforma wyrzutni rakiet"
+
+mss_battleship_missile_array_stern: "Rufowy zestaw rakietowy"
+mss_battleship_missile_array_stern_desc: "Dedykowana platforma wyrzutni rakiet"

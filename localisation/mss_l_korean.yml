@@ -1,0 +1,89 @@
+﻿l_korean:
+
+# 코르벳 선체
+
+mss_scout : "스카우트"
+mss_scout_desc : "정찰 및 감시를위한 작은 비무장 코르벳 함"
+
+mss_swarmer: "미사일 스크린"
+mss_swarmer_desc:"호위 스웜 미사일용 대형 탄창"
+
+mss_fighter_wing : "전투기 지원 탱커"
+mss_fighter_wing_desc : "전투기 용 장거리 급유 및 재 보급 탱커"
+
+mss_freighter:         "뱃짐 싣는 사람"
+mss_freighter_desc:    "추가 유틸리티 슬롯"
+
+# 구축함 선체 섹션
+
+mss_fighter_escourt_stern : "파이터 에스코트 스턴"
+mss_fighter_escourt_stern_desc : "전투기 escourt와 구축함"
+
+mss_auxiliary_interceptor_stern : "개선 된 인터셉터 스턴"
+mss_auxiliary_interceptor_stern_desc : "추가 전력 / 추진기 슬롯이있는 인터셉터 구축함 선미"
+
+mss_auxiliary_gunship_stern : "개선 된 건쉽 스턴"
+mss_auxiliary_gunship_stern_desc : "추가 파워 / 추진기 슬롯이있는 건쉽 구축함 선미"
+
+mss_augmented_interceptor_stern : "고급 인터셉터 스턴"
+mss_augmented_interceptor_stern_desc : "방패 / 갑옷과 추가 전력 / 추진기 슬롯이있는 인터셉터 구축함 선미"
+
+mss_augmented_gunship_stern : "고급 건쉽 스턴"
+mss_augmented_gunship_stern_desc : "방패 / 갑옷과 추가 전력 / 추진기 슬롯이있는 건쉽 구축함 선미"
+
+mss_destroyer_missile_array_bow : "미사일 배열 활"
+mss_destroyer_missile_array_bow_desc : "전용 미사일 발사 플랫폼"
+
+mss_destroyer_missile_array_stern : "미사일 배열 선미"
+mss_destroyer_missile_array_stern_desc : "전용 미사일 발사 플랫폼"
+
+
+# 크루저 선체 섹션
+
+mss_hanger_bay_mid : "행거 베이"
+mss_hanger_bay_mid_desc : "전투기의 발사, 회수 및 유지 보수를위한 행거 베이"
+
+mss_close_quarters_bow : "클로즈 쿼터스 보우"
+mss_close_quarters_bow_desc : "근접 교전을위한 총 배터리"
+
+mss_close_quarters_mid : "클로즈 쿼터스 코어"
+mss_close_quarters_mid_desc : "근접 교전을위한 총 배터리"
+
+mss_cruiser_missile_array_bow : "미사일 배열 활"
+mss_cruiser_missile_array_bow_desc : "전용 미사일 발사 플랫폼"
+
+mss_cruiser_missile_array_core : "미사일 어레이 코어"
+mss_cruiser_missile_array_core_desc : "전용 미사일 발사 플랫폼"
+
+mss_cruiser_missile_array_stern : "미사일 배열 선미"
+mss_cruiser_missile_array_stern_desc : "전용 미사일 발사 플랫폼"
+
+
+# 전함 선체 섹션
+
+mss_dedicated_broadside_bow : "전용 브로드 사이드 보우"
+mss_dedicated_broadside_bow_desc : "전용 중거리 지원 전함"
+
+mss_dedicated_broadside_core : "전용 브로드 사이드 코어"
+mss_dedicated_broadside_core_desc : "전용 중거리 지원 전함"
+
+mss_battleship_gun_battery_bow : "클로즈 쿼터스 보우"
+mss_battleship_gun_battery_bow_desc : "근접 교전을위한 총 배터리"
+
+mss_battleship_gun_battery_core : "클로즈 쿼터스 코어"
+mss_battleship_gun_battery_core_desc : "근접 교 전용 총 배터리"
+
+mss_gun_battery_stern : "Close Quarters Stern"
+mss_gun_battery_stern_desc : "근접 교전을위한 총 배터리"
+
+mss_launch_bays : "전투기 발사대"
+mss_launch_bays_desc : "전투기 발사, 복구 및 유지 보수"
+
+mss_battleship_missile_array_bow : "미사일 배열 활"
+mss_battleship_missile_array_bow_desc : "전용 미사일 발사 플랫폼"
+
+mss_battleship_missile_array_core : "미사일 어레이 코어"
+mss_battleship_missile_array_core_desc : "전용 미사일 발사 플랫폼"
+
+mss_battleship_missile_array_stern : "미사일 배열 선미"
+mss_battleship_missile_array_stern_desc : "전용 미사일 발사 플랫폼"

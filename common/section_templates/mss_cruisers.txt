@@ -1,0 +1,311 @@
+# Cruisers
+#  Close Quarters Bow
+#  Close Quarters Core
+#  Missile Array Bow
+#  Missile Array Core
+#  Missile Array Stern
+#  Hanger bay mid section
+
+# Hull section cost
+@hull_section_cost = 40
+
+# Close Quarters Bow
+ship_section_template = { key = "mss_close_quarters_bow"
+	ship_size = cruiser
+	fits_on_slot = bow
+
+	# Graphics
+	should_draw_components = yes
+	entity = "cruiser_bow_M1S2_entity" # Supports two small gun graphics, extra empty medium pad
+	# icon   = "GFX_ship_part_core_bow"
+
+	# Gun battery slots
+	component_slot = {
+		name 		= "SMALL_GUN_01"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}	
+	component_slot = {
+		name 		= "SMALL_GUN_02"
+		template 	= "small_turret"
+		locatorname = "small_gun_02"
+	}	
+	component_slot = {
+		name 		= "SMALL_GUN_03"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}	
+	component_slot = {
+		name 		= "SMALL_GUN_04"
+		template	= "small_turret"
+		locatorname = "small_gun_02"
+	}	
+	medium_utility_slots = 4
+	
+	# Costs
+	prerequisites = {
+		tech_cruisers
+	}
+	resources = {
+		category = ship_sections
+		cost     = { alloys = @hull_section_cost }
+	}
+
+	# AI Preference not specific to weapon type
+}
+
+# Close Quarters Mid
+ship_section_template = { key = "mss_close_quarters_mid"
+	ship_size = cruiser
+	fits_on_slot = mid
+
+	# Graphics
+	should_draw_components = yes
+	entity = "cruiser_mid_S2HB_entity" # Supports only two small gun graphics
+	# icon   = "GFX_ship_part_core_mid"
+
+	# Gun battery slots
+	component_slot = {
+		name 		= "SMALL_GUN_01"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}	
+	component_slot = {
+		name 		= "SMALL_GUN_02"
+		template 	= "small_turret"
+		locatorname = "small_gun_02"
+	}	
+	component_slot = {
+		name 		= "SMALL_GUN_03"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}	
+	component_slot = {
+		name 		= "SMALL_GUN_04"
+		template	= "small_turret"
+		locatorname = "small_gun_01"
+	}	
+	component_slot = {
+		name 		= "SMALL_GUN_05"
+		template 	= "small_turret"
+		locatorname = "small_gun_01"
+	}	
+	component_slot = {
+		name 		= "SMALL_GUN_06"
+		template	= "small_turret"
+		locatorname = "small_gun_01"
+	}	
+	medium_utility_slots = 4
+	
+	# Costs
+	prerequisites = {
+		tech_cruisers
+	}
+	resources = {
+		category = ship_sections
+		cost     = { alloys = @hull_section_cost }
+	}
+
+	# AI Preference not specific to weapon type
+}
+
+# Missile Array Bow
+ship_section_template = { key = "mss_cruiser_missile_array_bow"
+	ship_size = cruiser
+	fits_on_slot = bow
+
+	# Graphics
+	should_draw_components = yes
+	entity = "cruiser_bow_M2_entity" # Supports two missile graphics
+	# icon   = "GFX_ship_part_core_bow"
+
+	# Missile slots
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_02"
+	}
+	medium_utility_slots = 4
+	
+	# Costs
+	prerequisites = {
+		tech_cruisers
+	}
+	resources = {
+		category = ship_sections
+		cost     = { alloys = @hull_section_cost }
+	}
+
+	# AI with explosives/strike craft preference choose this hull
+	#    and those without don't
+	ai_weight = {
+		modifier = {
+			factor = 10
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = {	is_preferred_weapons = weapon_type_explosive }
+		}
+	}
+}
+
+# Missile Array Core
+ship_section_template = { key = "mss_cruiser_missile_array_core"
+	ship_size = cruiser
+	fits_on_slot = mid
+
+	# Graphics
+	should_draw_components = yes
+	entity = "cruiser_mid_M3_entity" # Supports 3 missile graphics
+	# icon   = "GFX_ship_part_core_mid"
+
+	# Missile slots
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_03"
+	}
+	medium_utility_slots = 4
+	
+	# Costs
+	prerequisites = {
+		tech_cruisers
+	}
+	resources = {
+		category = ship_sections
+		cost     = { alloys = @hull_section_cost }
+	}
+
+	# AI with explosives/strike craft preference choose this hull
+	#    and those without don't
+	ai_weight = {
+		modifier = {
+			factor = 10
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = {	is_preferred_weapons = weapon_type_explosive }
+		}
+	}
+}
+
+# Missile Array Stern
+ship_section_template = { key = "mss_cruiser_missile_array_stern"
+	ship_size = cruiser
+	fits_on_slot = stern
+
+	# Graphics
+	should_draw_components = yes
+	entity = "cruiser_stern_M1_entity" # Supports 1 missile graphic
+	# icon   = "GFX_ship_part_core_stern"
+
+	# Missile slots
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	aux_utility_slots = 2
+	
+	# Costs
+	prerequisites = {
+		tech_cruisers
+	}
+	resources = {
+		category = ship_sections
+		cost     = { alloys = @hull_section_cost }
+	}
+
+	# AI with explosives/strike craft preference choose this hull
+	#    and those without don't
+	ai_weight = {
+		modifier = {
+			factor = 10
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = {	is_preferred_weapons = weapon_type_explosive }
+		}
+	}
+}
+
+# Hanger bay
+ship_section_template = { key = "mss_hanger_bay_mid"
+	ship_size = cruiser
+	fits_on_slot = mid
+
+	# Graphics
+	should_draw_components = no
+	entity = "cruiser_mid_S2HB_entity" # Supports only one hanger bay "graphic" (no visible fighters), 2 extra small gun pads
+  # icon   = "GFX_ship_part_core_mid"
+	
+	# Componant slots
+	component_slot = {
+		name        = "STRIKE_CRAFT_01"
+		template    = "large_strike_craft"
+		locatorname = "strike_craft_locator_01"
+		rotation    = -90
+	}
+	component_slot = {
+		name        = "STRIKE_CRAFT_02"
+		template    = "large_strike_craft"
+		locatorname = "strike_craft_locator_01"
+		rotation    = 90
+	}
+	component_slot = {
+		name        = "STRIKE_CRAFT_03"
+		template    = "large_strike_craft"
+		locatorname = "strike_craft_locator_01"
+		rotation    = 90
+	}
+	medium_utility_slots = 4
+	
+	# Costs
+	prerequisites = {
+		tech_cruisers
+		tech_strike_craft_1
+	}
+	resources = {
+		category = ship_sections
+		cost = { alloys = @hull_section_cost }
+	}
+
+	# AI preference
+	ai_weight = {
+		modifier = {
+			factor = 0.1
+			NOT = {
+				has_technology = tech_strike_craft_1
+			}
+		}
+		modifier = {
+			factor = 10
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = {
+				is_preferred_weapons = weapon_type_explosive
+			}
+		}
+	}
+	
+}

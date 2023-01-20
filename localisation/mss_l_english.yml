@@ -1,0 +1,90 @@
+﻿l_english:
+
+# Corvette hulls
+
+mss_scout:             "Scout"
+mss_scout_desc:        "Small unarmed corvette for scouting and surveillance"
+
+mss_swarmer:           "Missile Screen"
+mss_swarmer_desc:      "Large magazine size for escourt swarm missiles"
+
+mss_fighter_wing:      "Fighter Support Tanker"
+mss_fighter_wing_desc: "Long range refueling and resupply tanker for a fighter wing"
+
+mss_freighter:         "Freighter"
+mss_freighter_desc:    "Extra utility slots"
+
+
+# Destroyer hull sections
+
+mss_fighter_escourt_stern:             "Fighter Escourt Stern"
+mss_fighter_escourt_stern_desc:        "Destroyer with fighter escourt"
+
+mss_auxiliary_interceptor_stern:      "Improved Interceptor Stern"
+mss_auxiliary_interceptor_stern_desc: "Interceptor destroyer stern with additional power/thruster slots"
+
+mss_auxiliary_gunship_stern:           "Improved Gunship Stern"
+mss_auxiliary_gunship_stern_desc:      "Gunship destroyer stern with additional power/thruster slots"
+
+mss_augmented_interceptor_stern:       "Advanced Interceptor Stern"
+mss_augmented_interceptor_stern_desc:  "Interceptor destroyer stern with shield/armor and additional power/thruster slot"
+
+mss_augmented_gunship_stern:           "Advanced Gunship Stern"
+mss_augmented_gunship_stern_desc:      "Gunship destroyer stern with shield/armor and additional power/thruster slot"
+
+mss_destroyer_missile_array_bow:       "Missile Array Bow"
+mss_destroyer_missile_array_bow_desc:  "Dedicated missile launch platform"
+
+mss_destroyer_missile_array_stern:      "Missile Array Stern"
+mss_destroyer_missile_array_stern_desc: "Dedicated missile launch platform"
+
+
+# Cruiser hull sections
+
+mss_hanger_bay_mid:               "Hanger Bay"
+mss_hanger_bay_mid_desc:          "Hanger bay for launch, retrival and maintenance of fighters"
+
+mss_close_quarters_bow:            "Close Quarters Bow"
+mss_close_quarters_bow_desc:       "Gun battery for close engagements"
+
+mss_close_quarters_mid:             "Close Quarters Core"
+mss_close_quarters_mid_desc:        "Gun battery for close engagements"
+
+mss_cruiser_missile_array_bow:      "Missile Array Bow"
+mss_cruiser_missile_array_bow_desc: "Dedicated missile launch platform"
+
+mss_cruiser_missile_array_core:      "Missile Array Core"
+mss_cruiser_missile_array_core_desc: "Dedicated missile launch platform"
+
+mss_cruiser_missile_array_stern:      "Missile Array Stern"
+mss_cruiser_missile_array_stern_desc: "Dedicated missile launch platform"
+
+
+# Battleship hull sections
+
+mss_dedicated_broadside_bow:            "Dedicated Broadside Bow"
+mss_dedicated_broadside_bow_desc:       "Dedicated mid range fire support battleship"
+
+mss_dedicated_broadside_core:           "Dedicated Broadside Core"
+mss_dedicated_broadside_core_desc:      "Dedicated mid range fire support battleship"
+
+mss_battleship_gun_battery_bow:         "Close Quarters Bow"
+mss_battleship_gun_battery_bow_desc:    "Gun battery for close engagements"
+
+mss_battleship_gun_battery_core:        "Close Quarters Core"
+mss_battleship_gun_battery_core_desc:   "Gun battery for close engagements"
+
+mss_gun_battery_stern:                  "Close Quarters Stern"
+mss_gun_battery_stern_desc:             "Gun battery for close engagements"
+
+mss_launch_bays:                        "Fighter Launch Bays"
+mss_launch_bays_desc:                   "Launch, recovery and maintenance of fighters"
+
+mss_battleship_missile_array_bow:        "Missile Array Bow"
+mss_battleship_missile_array_bow_desc:   "Dedicated missile launch platform"
+
+mss_battleship_missile_array_core:       "Missile Array Core"
+mss_battleship_missile_array_core_desc:  "Dedicated missile launch platform"
+
+mss_battleship_missile_array_stern:      "Missile Array Stern"
+mss_battleship_missile_array_stern_desc: "Dedicated missile launch platform"
