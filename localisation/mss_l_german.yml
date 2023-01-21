@@ -87,3 +87,14 @@ mss_battleship_missile_array_core_desc: "Spezielle Raketenstartplattform"
 
 mss_battleship_missile_array_stern: "Missile Array Stern"
 mss_battleship_missile_array_stern_desc: "Spezielle Raketenstartplattform"
+
+
+# 
+
+# Plattformabschnitte
+
+mss_platform_multirole: "Mischnutzung"
+mss_platform_multirole.desc: "Multi-Role Platform"
+
+mss_platform_multirole: "Mixed use"
+mss_platform_multirole.desc: "Multi-Role-Plattform"

@@ -87,3 +87,9 @@ mss_battleship_missile_array_core_desc: "Dedykowana platforma wyrzutni rakiet"
 
 mss_battleship_missile_array_stern: "Rufowy zestaw rakietowy"
 mss_battleship_missile_array_stern_desc: "Dedykowana platforma wyrzutni rakiet"
+
+
+# sekcje platformy
+
+mss_platform_multirole: "Zastosowań mieszanych"
+mss_platform_multirole.desc: "Platforma wielozadaniowa"

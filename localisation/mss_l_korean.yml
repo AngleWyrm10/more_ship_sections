@@ -87,3 +87,9 @@ mss_battleship_missile_array_core_desc : "전용 미사일 발사 플랫폼"
 
 mss_battleship_missile_array_stern : "미사일 배열 선미"
 mss_battleship_missile_array_stern_desc : "전용 미사일 발사 플랫폼"
+
+
+# 플랫폼 섹션
+
+mss_platform_multirole: "혼합 사용"
+mss_platform_multirole.desc: "다중 역할 플랫폼"

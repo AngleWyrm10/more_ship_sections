@@ -88,3 +88,9 @@ mss_battleship_missile_array_core_desc:  "Dedicated missile launch platform"
 
 mss_battleship_missile_array_stern:      "Missile Array Stern"
 mss_battleship_missile_array_stern_desc: "Dedicated missile launch platform"
+
+
+# Platform sections
+
+mss_platform_multirole: "Mixed use"
+mss_platform_multirole.desc: "Multi-Role Platform"

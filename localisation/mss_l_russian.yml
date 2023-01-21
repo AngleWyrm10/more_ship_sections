@@ -87,3 +87,9 @@ mss_battleship_missile_array_core_desc: "Специальная платформ
 
 mss_battleship_missile_array_stern: "Корма с ракетной батареей"
 mss_battleship_missile_array_stern_desc: "Специальная платформа для запуска ракет"
+
+
+# Секции платформы
+
+mss_platform_multirole: "Смешанное использование"
+mss_platform_multirole.desc: "Многоцелевая платформа"
