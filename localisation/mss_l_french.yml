@@ -19,6 +19,9 @@ mss_freighter_desc:    "Emplacements utilitaires supplémentaires"
 mss_fighter_escourt_stern: "Chasseur Escourt Stern"
 mss_fighter_escourt_stern_desc: "Destructeur avec escourt de chasseur"
 
+mss_destroyer_interceptor_bow : "Arc intercepteur"
+mss_destroyer_interceptor_bow : "Arc de destroyer intercepteur"
+
 mss_auxiliary_interceptor_stern: "Amélioration de l'intercepteur Stern"
 mss_auxiliary_interceptor_stern_desc: "Poupe du destroyer intercepteur avec emplacements de puissance / propulseur supplémentaires"
 

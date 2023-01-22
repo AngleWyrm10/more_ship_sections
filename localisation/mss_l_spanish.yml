@@ -19,6 +19,9 @@ mss_freighter_desc:    "Ranuras de utilidad adicionales"
 mss_fighter_escourt_stern: "Luchador Escourt Stern"
 mss_fighter_escourt_stern_desc: "Destructor con escourt de combate"
 
+mss_destroyer_interceptor_bow: "Arco Interceptor"
+mss_destroyer_interceptor_bow: "Arco del destructor interceptor"
+
 mss_auxiliary_interceptor_stern: "Interceptor Stern mejorado"
 mss_auxiliary_interceptor_stern_desc: "Popa del destructor del interceptor con ranuras adicionales de potencia / propulsor"
 

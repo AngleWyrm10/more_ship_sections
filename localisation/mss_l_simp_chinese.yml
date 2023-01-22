@@ -19,6 +19,9 @@ mss_freighter_desc:    "额外的实用程序插槽"
 mss_fighter_escourt_stern: “战斗机护卫舰船尾”
 mss_fighter_escourt_stern_desc: “带有战斗机护卫舰的驱逐舰”
 
+mss_destroyer_interceptor_bow：“拦截弓”
+mss_destroyer_interceptor_bow：“拦截驱逐舰弓”
+
 mss_auxiliary_interceptor_stern: “改进的拦截器船尾”
 mss_auxiliary_interceptor_stern_desc: “拦截机驱逐舰尾部带有额外的动力/推进器插槽”
 

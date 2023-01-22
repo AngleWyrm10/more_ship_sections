@@ -19,6 +19,9 @@ mss_freighter_desc:    "Zusätzliche Utility-Slots"
 mss_fighter_escourt_stern: "Fighter Escourt Stern"
 mss_fighter_escourt_stern_desc: "Zerstörer mit Kämpfer-Eskorte"
 
+mss_destroyer_interceptor_bow: "Abfangbogen"
+mss_destroyer_interceptor_bow: "Abfangjäger-Zerstörerbogen"
+
 mss_auxiliary_interceptor_stern: "Verbesserter Interceptor Stern"
 mss_auxiliary_interceptor_stern_desc: "Interceptor-Zerstörerheck mit zusätzlichen Power / Thruster-Slots"
 
@@ -88,8 +91,6 @@ mss_battleship_missile_array_core_desc: "Spezielle Raketenstartplattform"
 mss_battleship_missile_array_stern: "Missile Array Stern"
 mss_battleship_missile_array_stern_desc: "Spezielle Raketenstartplattform"
 
-
-# 
 
 # Plattformabschnitte
 

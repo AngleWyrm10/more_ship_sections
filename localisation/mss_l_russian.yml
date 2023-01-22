@@ -19,6 +19,9 @@ mss_freighter_desc:    "Дополнительные служебные слот
 mss_fighter_escourt_stern: "Корма с ангаром"
 mss_fighter_escourt_stern_desc: "Корма с ангаром для обслуживания истребительного крыла"
 
+mss_destroyer_interceptor_bow: "Лук-перехватчик"
+mss_destroyer_interceptor_bow: "Лук эсминца-перехватчика"
+
 mss_auxiliary_interceptor_stern: "Улучшенная корма перехватчика"
 mss_auxiliary_interceptor_stern_desc: "Корма с малыми орудиями и дополнительным A-слотом"
 

@@ -19,6 +19,9 @@ mss_freighter_desc:    "追加のユーティリティ スロット"
 mss_fighter_escourt_stern: "ファイターエスコートスターン"
 mss_fighter_escourt_stern_desc: "戦闘機の護衛を備えた破壊者」"
 
+mss_destroyer_interceptor_bow: "インターセプターボウ"
+mss_destroyer_interceptor_bow: "迎撃駆逐艦の弓"
+
 mss_auxiliary_interceptor_stern: "改良されたインターセプタースターン"
 mss_auxiliary_interceptor_stern_desc: "「追加のパワー/スラスタースロットを備えたインターセプター駆逐艦の船尾」"
 

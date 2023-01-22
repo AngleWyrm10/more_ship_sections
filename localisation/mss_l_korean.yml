@@ -19,6 +19,9 @@ mss_freighter_desc:    "추가 유틸리티 슬롯"
 mss_fighter_escourt_stern : "파이터 에스코트 스턴"
 mss_fighter_escourt_stern_desc : "전투기 escourt와 구축함"
 
+mss_destroyer_interceptor_bow: "요격 활"
+mss_destroyer_interceptor_bow: "요격 구축함 활"
+
 mss_auxiliary_interceptor_stern : "개선 된 인터셉터 스턴"
 mss_auxiliary_interceptor_stern_desc : "추가 전력 / 추진기 슬롯이있는 인터셉터 구축함 선미"
 

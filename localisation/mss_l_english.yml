@@ -20,6 +20,9 @@ mss_freighter_desc:    "Extra utility slots"
 mss_fighter_escourt_stern:             "Fighter Escourt Stern"
 mss_fighter_escourt_stern_desc:        "Destroyer with fighter escourt"
 
+mss_destroyer_interceptor_bow:        "Interceptor Bow"
+mss_destroyer_interceptor_bow:        "Interceptor destroyer bow"
+
 mss_auxiliary_interceptor_stern:      "Improved Interceptor Stern"
 mss_auxiliary_interceptor_stern_desc: "Interceptor destroyer stern with additional power/thruster slots"
 
@@ -32,11 +35,11 @@ mss_augmented_interceptor_stern_desc:  "Interceptor destroyer stern with shield/
 mss_augmented_gunship_stern:           "Advanced Gunship Stern"
 mss_augmented_gunship_stern_desc:      "Gunship destroyer stern with shield/armor and additional power/thruster slot"
 
-mss_destroyer_missile_array_bow:       "Missile Array Bow"
-mss_destroyer_missile_array_bow_desc:  "Dedicated missile launch platform"
+mss_destroyer_missile_array_bow:       "Torpedo Bow"
+mss_destroyer_missile_array_bow_desc:  "Dedicated torpedo launch platform"
 
-mss_destroyer_missile_array_stern:      "Missile Array Stern"
-mss_destroyer_missile_array_stern_desc: "Dedicated missile launch platform"
+mss_destroyer_missile_array_stern:      "Torpedo Stern"
+mss_destroyer_missile_array_stern_desc: "Dedicated torpedo launch platform"
 
 
 # Cruiser hull sections

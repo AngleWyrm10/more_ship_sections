@@ -19,6 +19,9 @@ mss_freighter_desc:    "Espaços utilitários extras"
 mss_fighter_escourt_stern: "Fighter Escourt Stern"
 mss_fighter_escourt_stern_desc: "Destruidor com escolta de caça"
 
+mss_destroyer_interceptor_bow: "Arco interceptador"
+mss_destroyer_interceptor_bow: "Arco destruidor interceptor"
+
 mss_auxiliary_interceptor_stern: "Melhoria do Interceptor Stern"
 mss_auxiliary_interceptor_stern_desc: "Interceptor destroyer popa com potência adicional / slots de propulsão"
 

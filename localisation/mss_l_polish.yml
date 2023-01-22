@@ -19,6 +19,9 @@ mss_freighter_desc:    "Dodatkowe gniazda narzędziowe"
 mss_fighter_escourt_stern: "Myśliwiec Escourt Stern"
 mss_fighter_escourt_stern_desc: "Niszczyciel z escourtem myśliwca"
 
+mss_destroyer_interceptor_bow: "Łuk przechwytujący"
+mss_destroyer_interceptor_bow: "Łuk niszczyciela przechwytującego"
+
 mss_auxiliary_interceptor_stern: "Ulepszona rufa przechwytująca"
 mss_auxiliary_interceptor_stern_desc: "Rufa niszczyciela przechwytującego z dodatkowymi gniazdami na moc / pędnik"
 
