@@ -1,98 +1,99 @@
 ﻿l_simp_chinese:
 
-# 护卫舰船体
+# Corvette hulls
 
-mss_scout: “侦察兵”
-mss_scout_desc: “用于侦察和监视的小型无武装巡洋舰”
+mss_scout:             "侦察核心"
+mss_scout_desc:        "小型的无武装轻型护卫舰，用于侦察和监视"
 
-mss_swarmer: "导弹屏幕"
-mss_swarmer_desc: "用于护航蜂群导弹的大弹匣尺寸"
+mss_swarmer:           "导弹屏卫核心"
+mss_swarmer_desc:      "携带着大量的防卫蜂群导弹"
 
-mss_fighter_wing: “战斗支援油轮”
-mss_fighter_wing_desc: “为战斗机机翼进行远程加油和补给油轮”
+mss_fighter_wing:      "机库支援核心"
+mss_fighter_wing_desc: "小型航母装配，能为战机中队提供加油和后勤服务"
 
-mss_freighter:         "货轮"
-mss_freighter_desc:    "额外的实用程序插槽"
-
-# 驱逐舰的船体部分
-
-mss_fighter_escourt_stern: “战斗机护卫舰船尾”
-mss_fighter_escourt_stern_desc: “带有战斗机护卫舰的驱逐舰”
-
-mss_destroyer_interceptor_bow：“拦截弓”
-mss_destroyer_interceptor_bow：“拦截驱逐舰弓”
-
-mss_auxiliary_interceptor_stern: “改进的拦截器船尾”
-mss_auxiliary_interceptor_stern_desc: “拦截机驱逐舰尾部带有额外的动力/推进器插槽”
-
-mss_auxiliary_gunship_stern: “改进的武装直升机船尾”
-mss_auxiliary_gunship_stern_desc: “带有附加动力/推进器插槽的炮舰驱逐舰船尾”
-
-mss_augmented_interceptor_stern: “高级拦截器船尾”
-mss_augmented_interceptor_stern_desc: “具有屏蔽/装甲和附加动力/推进器插槽的拦截驱逐舰船尾”
-
-mss_augmented_gunship_stern: “高级武装直升机船尾”
-mss_augmented_gunship_stern_desc: “带有护盾/装甲和附加动力/推进器插槽的弹药驱逐舰船尾”
-
-mss_destroyer_missile_array_bow: “导弹阵列弓”
-mss_destroyer_missile_array_bow_desc: “专用导弹发射平台”
-
-mss_destroyer_missile_array_stern: “导弹阵列船尾”
-mss_destroyer_missile_array_stern_desc: “专用导弹发射平台”
+mss_freighter:         "运输护卫核心"
+mss_freighter_desc:    "拥有更多的辅助设备槽"
 
 
-# 巡洋舰船体部分
+# Destroyer hull sections
 
-mss_hanger_bay_mid: “挂衣架湾”
-mss_hanger_bay_mid_desc: “用于发射，取回和维护战斗机的挂衣架湾”
+mss_fighter_escourt_stern:             "机库舰艉"
+mss_fighter_escourt_stern_desc:        "为驱逐舰增加机库部分"
 
-mss_close_quarters_bow: “近距离弓箭”
-mss_close_quarters_bow_desc: “炮弹用于近距离接触”
+mss_destroyer_interceptor_bow:        "截击舰艏"
+mss_destroyer_interceptor_bow:        "截击驱逐舰的舰艏"
 
-mss_close_quarters_mid: “封闭季度核心”
-mss_close_quarters_mid_desc: “炮弹用于近距离接触”
+mss_auxiliary_interceptor_stern:      "改进型截击舰艉"
+mss_auxiliary_interceptor_stern_desc: "改进型截击舰艉拥有更多的能量/推进器辅助设备槽位"
 
-mss_cruiser_missile_array_bow: “导弹阵列弓”
-mss_cruiser_missile_array_bow_desc: “专用导弹发射平台”
+mss_auxiliary_gunship_stern:           "改进型炮艇舰艉"
+mss_auxiliary_gunship_stern_desc:      "改进型炮艇舰艉拥有更多的能量/推进器辅助设备槽位"
 
-mss_cruiser_missile_array_core: “导弹阵列核心”
-mss_cruiser_missile_array_core_desc: “专用导弹发射平台”
+mss_augmented_interceptor_stern:       "高级截击舰艉"
+mss_augmented_interceptor_stern_desc:  "高级截击舰艉拥有更多的防护设备槽和能量/推进器辅助设备槽位"
 
-mss_cruiser_missile_array_stern: “导弹阵列船尾”
-mss_cruiser_missile_array_stern_desc: “专用导弹发射平台”
+mss_augmented_gunship_stern:           "高级炮艇舰艉"
+mss_augmented_gunship_stern_desc:      "高级炮艇舰艉拥有更多的防护设备槽和能量/推进器辅助设备槽位"
 
+mss_destroyer_missile_array_bow:       "鱼雷舰艏"
+mss_destroyer_missile_array_bow_desc:  "鱼雷发射平台"
 
-# 战舰船体部分
-
-mss_dedicated_broadside_bow: “专用宽边弓”
-mss_dedicated_broadside_bow_desc: “专用中程火力支援战舰”
-
-mss_dedicated_broadside_core: “专用宽带核心”
-mss_dedicated_broadside_core_desc: “专用中程火力支援战舰”
-
-mss_battleship_gun_battery_bow: “近距离弓箭”
-mss_battleship_gun_battery_bow_desc: “紧密接触的炮弹”
-
-mss_battleship_gun_battery_core: “近距离核心”
-mss_battleship_gun_battery_core_desc: “紧密接触的炮弹”
-
-mss_gun_battery_stern: “近距离船尾”
-mss_gun_battery_stern_desc: “紧密接触的炮电池”
-
-mss_launch_bays: “战斗机发射场”
-mss_launch_bays_desc: “战斗机的发射，恢复和维护”
-
-mss_battleship_missile_array_bow: “导弹阵列弓”
-mss_battleship_missile_array_bow_desc: “专用导弹发射平台”
-
-mss_battleship_missile_array_core: “导弹阵列核心”
-mss_battleship_missile_array_core_desc: “专用导弹发射平台”
-
-mss_battleship_missile_array_stern: “导弹阵列船尾”
-mss_battleship_missile_array_stern_desc: “专用导弹发射平台”
+mss_destroyer_missile_array_stern:      "鱼雷舰艉"
+mss_destroyer_missile_array_stern_desc: "鱼雷发射平台"
 
 
-# 平台部分
+# Cruiser hull sections
 
-mss_platform_multirole: "混合使用"
-mss_platform_multirole.desc: "多角色平台"
+mss_hanger_bay_mid:               "机库核心"
+mss_hanger_bay_mid_desc:          "为大量战机中队提供出击，回收，维护的平台"
+
+mss_close_quarters_bow:            "近战舰艏"
+mss_close_quarters_bow_desc:       "提供了大量近战武器的挂载点"
+
+mss_close_quarters_mid:             "近战核心"
+mss_close_quarters_mid_desc:        "提供了大量近战武器的挂载点"
+
+mss_cruiser_missile_array_bow:      "导弹阵列舰艏"
+mss_cruiser_missile_array_bow_desc: "导弹发射平台"
+
+mss_cruiser_missile_array_core:      "导弹阵列核心"
+mss_cruiser_missile_array_core_desc: "导弹发射平台"
+
+mss_cruiser_missile_array_stern:      "导弹阵列舰艉"
+mss_cruiser_missile_array_stern_desc: "导弹发射平台"
+
+
+# Battleship hull sections
+
+mss_dedicated_broadside_bow:            "齐射舰艏"
+mss_dedicated_broadside_bow_desc:       "专精于中距离接战的战列舰"
+
+mss_dedicated_broadside_core:           "齐射核心"
+mss_dedicated_broadside_core_desc:      "专精于中距离接战的战列舰"
+
+mss_battleship_gun_battery_bow:         "近战舰艏"
+mss_battleship_gun_battery_bow_desc:    "提供了大量的武器挂点"
+
+mss_battleship_gun_battery_core:        "近战核心"
+mss_battleship_gun_battery_core_desc:   "提供了大量的武器挂点"
+
+mss_gun_battery_stern:                  "近战舰艉"
+mss_gun_battery_stern_desc:             "提供了大量的武器挂点"
+
+mss_launch_bays:                        "机库核心"
+mss_launch_bays_desc:                   "携带着大量的战机中队"
+
+mss_battleship_missile_array_bow:        "导弹阵列舰艏"
+mss_battleship_missile_array_bow_desc:   "导弹发射平台"
+
+mss_battleship_missile_array_core:       "导弹阵列核心"
+mss_battleship_missile_array_core_desc:  "导弹发射平台"
+
+mss_battleship_missile_array_stern:      "导弹阵列舰艉"
+mss_battleship_missile_array_stern_desc: "导弹发射平台"
+
+
+# Platform sections
+
+mss_platform_multirole: "混合空间站区段"
+mss_platform_multirole.desc: "多功能平台"
