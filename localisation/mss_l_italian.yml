@@ -1,0 +1,99 @@
+﻿l_italian:
+
+# Scafi Corvette
+
+mss_scout: "Esploratore"
+mss_scout_desc: "Piccola corvetta disarmata per scouting e sorveglianza"
+
+mss_swarmer: "Schermata missilistica"
+mss_swarmer_desc: "Grandi dimensioni del caricatore per missili a sciame di scorta"
+
+mss_fighter_wing: "Aerocisterna di supporto al caccia"
+mss_fighter_wing_desc: "Rifornimento a lungo raggio e petroliera di rifornimento per un'ala da caccia"
+
+mss_freighter: "Cargo"
+mss_freighter_desc: "Slot utili extra"
+
+
+# Sezioni dello scafo del cacciatorpediniere
+
+mss_fighter_escourt_stern: "Combattente Escourt Stern"
+mss_fighter_escourt_stern_desc: "Distruttore con scorta di caccia"
+
+mss_destroyer_interceptor_bow: "Arco dell'intercettore"
+mss_destroyer_interceptor_bow: "Arco cacciatorpediniere intercettore"
+
+mss_auxiliary_interceptor_stern: "Stern dell'intercettore migliorato"
+mss_auxiliary_interceptor_stern_desc: "Poppa del cacciatorpediniere intercettore con slot di alimentazione/propulsore aggiuntivi"
+
+mss_auxiliary_gunship_stern: "Poppa della cannoniera migliorata"
+mss_auxiliary_gunship_stern_desc: "Poppa del cacciatorpediniere cannoniera con slot di alimentazione/propulsore aggiuntivi"
+
+mss_augmented_interceptor_stern: "Intercettore avanzato a poppa"
+mss_augmented_interceptor_stern_desc: "Poppa del cacciatorpediniere intercettore con scudo/armatura e slot di alimentazione/propulsore aggiuntivo"
+
+mss_augmented_gunship_stern: "Poppa cannoniera avanzata"
+mss_augmented_gunship_stern_desc: "Poppa del cacciatorpediniere cannoniera con scudo/armatura e slot di alimentazione/propulsore aggiuntivo"
+
+mss_destroyer_missile_array_bow: "Arco siluro"
+mss_destroyer_missile_array_bow_desc: "Piattaforma di lancio di siluri dedicata"
+
+mss_destroyer_missile_array_stern: "Siluro di poppa"
+mss_destroyer_missile_array_stern_desc: "Piattaforma di lancio di siluri dedicata"
+
+
+# Sezioni dello scafo dell'incrociatore
+
+mss_hanger_bay_mid: "Appendice"
+mss_hanger_bay_mid_desc: "Hanger bay per il lancio, il recupero e la manutenzione dei caccia"
+
+mss_close_quarters_bow: "Arco ravvicinato"
+mss_close_quarters_bow_desc: "Batteria della pistola per scontri ravvicinati"
+
+mss_close_quarters_mid: "Primi quarti Core"
+mss_close_quarters_mid_desc: "Batteria della pistola per scontri ravvicinati"
+
+mss_cruiser_missile_array_bow: "Arco del sistema missilistico"
+mss_cruiser_missile_array_bow_desc: "Piattaforma lanciamissili dedicata"
+
+mss_cruiser_missile_array_core: "Nucleo dell'array missilistico"
+mss_cruiser_missile_array_core_desc: "Piattaforma lanciamissili dedicata"
+
+mss_cruiser_missile_array_stern: "Sistema missilistico di poppa"
+mss_cruiser_missile_array_stern_desc: "Piattaforma lanciamissili dedicata"
+
+
+# Sezioni dello scafo della corazzata
+
+mss_dedicated_broadside_bow: "Arco laterale dedicato"
+mss_dedicated_broadside_bow_desc: "Corazzata di supporto al fuoco a medio raggio dedicata"
+
+mss_dedicated_broadside_core: "Nucleo Broadside dedicato"
+mss_dedicated_broadside_core_desc: "Corazzata di supporto al fuoco a medio raggio dedicata"
+
+mss_battleship_gun_battery_bow: "Arco da combattimento ravvicinato"
+mss_battleship_gun_battery_bow_desc: "Batteria della pistola per scontri ravvicinati"
+
+mss_battleship_gun_battery_core: "Nucleo ravvicinato"
+mss_battleship_gun_battery_core_desc: "Batteria della pistola per scontri ravvicinati"
+
+mss_gun_battery_stern: "Quarti ravvicinati a poppa"
+mss_gun_battery_stern_desc: "Batteria della pistola per scontri ravvicinati"
+
+mss_launch_bays: "Baie di lancio caccia"
+mss_launch_bays_desc: "Lancio, recupero e manutenzione dei caccia"
+
+mss_battleship_missile_array_bow: "Arco del sistema missilistico"
+mss_battleship_missile_array_bow_desc: "Piattaforma lanciamissili dedicata"
+
+mss_battleship_missile_array_core: "Nucleo dell'array missilistico"
+mss_battleship_missile_array_core_desc: "Piattaforma lanciamissili dedicata"
+
+mss_battleship_missile_array_stern: "Sistema missilistico di poppa"
+mss_battleship_missile_array_stern_desc: "Piattaforma lanciamissili dedicata"
+
+
+# Sezioni della piattaforma
+
+mss_platform_multirole: "Uso misto"
+mss_platform_multirole.desc: "Piattaforma multiruolo"
